@@ -1,0 +1,12 @@
+{
+     "type": "record",
+     "namespace": "au.com.datarefactory",
+     "name": "Person",
+     "version": "1",
+     "fields": [
+       { "name": "surname", "type": "string", "doc": "The Family Name of Person" },
+       { "name": "givenName", "type": "string", "doc": "The Given Name of Person" },
+       { "name": "dob", "type": "string", "doc": "The Date of Birth of Person" },
+       { "name": "gender", "type": "string", "doc": "The Gender of Person" }
+     ]
+}
